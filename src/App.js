@@ -1,8 +1,8 @@
-import React, { createContext } from "react";
-import "./style.css";
-import Child1 from "./Child1";
+import React, { createContext } from 'react';
+import './style.css';
+import Child1 from './Child1';
 
-let obj = { name: "justin", age: 21 };
+let obj = { name: 'justin', age: 21 };
 
 export const Contapivar = createContext(obj);
 
